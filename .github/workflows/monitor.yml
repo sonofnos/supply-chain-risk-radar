@@ -1,0 +1,50 @@
+name: Continuous supplier monitoring
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily
+  workflow_dispatch: {}
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scradar
+        uses: actions/checkout@v4
+        with:
+          path: scradar
+
+      - name: Checkout target repo — docwise
+        uses: actions/checkout@v4
+        with:
+          repository: sonofnos/docwise
+          path: scradar/targets/docwise
+
+      - name: Checkout target repo — ledger-api
+        uses: actions/checkout@v4
+        with:
+          repository: sonofnos/ledger-api
+          path: scradar/targets/ledger-api
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scradar
+        working-directory: scradar
+        run: pip install -e .
+
+      - name: Run scan against real demo suppliers
+        working-directory: scradar
+        run: python -m scradar.cli scan --config demo_configs/ci-suppliers.json --out-dir out
+
+      - name: Upload scan results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: risk-register-${{ github.run_id }}
+          path: scradar/out/
+
+      - name: Fail if a NEW critical vulnerability appeared vs. committed baseline
+        working-directory: scradar
+        run: python -m scradar.cli diff-baseline --baseline docs/baseline-risk-register.json --current out/risk-register.json

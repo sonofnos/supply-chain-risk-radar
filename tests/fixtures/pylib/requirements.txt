@@ -1,0 +1,6 @@
+# fixture: pinned + unpinned mix
+requests==2.31.0
+click==8.1.7
+flask>=2.0  # unpinned, should be skipped
+# a comment line
+django-cors-headers==4.9.0

@@ -1,0 +1,988 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f76f8099-d279-496b-aacf-4d87761e929e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-30T08:39:42Z",
+    "component": {
+      "type": "application",
+      "name": "docwise-backend",
+      "bom-ref": "supplier:docwise-backend"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/amqp@5.4.0",
+      "name": "amqp",
+      "version": "5.4.0",
+      "purl": "pkg:pypi/amqp@5.4.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/annotated-types@0.8.0",
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "purl": "pkg:pypi/annotated-types@0.8.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/anthropic@1.8.0",
+      "name": "anthropic",
+      "version": "1.8.0",
+      "purl": "pkg:pypi/anthropic@1.8.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/anyio@4.15.1",
+      "name": "anyio",
+      "version": "4.15.1",
+      "purl": "pkg:pypi/anyio@4.15.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/asgiref@3.12.1",
+      "name": "asgiref",
+      "version": "3.12.1",
+      "purl": "pkg:pypi/asgiref@3.12.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/billiard@4.3.0",
+      "name": "billiard",
+      "version": "4.3.0",
+      "purl": "pkg:pypi/billiard@4.3.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/celery@5.6.3",
+      "name": "celery",
+      "version": "5.6.3",
+      "purl": "pkg:pypi/celery@5.6.3",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.5.0",
+      "name": "click",
+      "version": "8.5.0",
+      "purl": "pkg:pypi/click@8.5.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click-didyoumean@0.3.1",
+      "name": "click-didyoumean",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/click-didyoumean@0.3.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click-plugins@1.1.1.2",
+      "name": "click-plugins",
+      "version": "1.1.1.2",
+      "purl": "pkg:pypi/click-plugins@1.1.1.2",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click-repl@0.4.0",
+      "name": "click-repl",
+      "version": "0.4.0",
+      "purl": "pkg:pypi/click-repl@0.4.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/coverage@7.16.1",
+      "name": "coverage",
+      "version": "7.16.1",
+      "purl": "pkg:pypi/coverage@7.16.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/django@5.0.14",
+      "name": "Django",
+      "version": "5.0.14",
+      "purl": "pkg:pypi/django@5.0.14",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/django-cors-headers@4.9.0",
+      "name": "django-cors-headers",
+      "version": "4.9.0",
+      "purl": "pkg:pypi/django-cors-headers@4.9.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/django-celery-results@2.6.0",
+      "name": "django_celery_results",
+      "version": "2.6.0",
+      "purl": "pkg:pypi/django-celery-results@2.6.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/djangorestframework@3.17.2",
+      "name": "djangorestframework",
+      "version": "3.17.2",
+      "purl": "pkg:pypi/djangorestframework@3.17.2",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/djangorestframework-simplejwt@5.5.1",
+      "name": "djangorestframework_simplejwt",
+      "version": "5.5.1",
+      "purl": "pkg:pypi/djangorestframework-simplejwt@5.5.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/docstring-parser@0.18.0",
+      "name": "docstring_parser",
+      "version": "0.18.0",
+      "purl": "pkg:pypi/docstring-parser@0.18.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/factory-boy@3.3.3",
+      "name": "factory_boy",
+      "version": "3.3.3",
+      "purl": "pkg:pypi/factory-boy@3.3.3",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/faker@40.39.0",
+      "name": "Faker",
+      "version": "40.39.0",
+      "purl": "pkg:pypi/faker@40.39.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore2@2.13.0",
+      "name": "httpcore2",
+      "version": "2.13.0",
+      "purl": "pkg:pypi/httpcore2@2.13.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx2@2.13.0",
+      "name": "httpx2",
+      "version": "2.13.0",
+      "purl": "pkg:pypi/httpx2@2.13.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.20",
+      "name": "idna",
+      "version": "3.20",
+      "purl": "pkg:pypi/idna@3.20",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/iniconfig@2.3.0",
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "purl": "pkg:pypi/iniconfig@2.3.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jiter@0.17.0",
+      "name": "jiter",
+      "version": "0.17.0",
+      "purl": "pkg:pypi/jiter@0.17.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/kombu@5.6.2",
+      "name": "kombu",
+      "version": "5.6.2",
+      "purl": "pkg:pypi/kombu@5.6.2",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@26.3",
+      "name": "packaging",
+      "version": "26.3",
+      "purl": "pkg:pypi/packaging@26.3",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pgvector@0.5.0",
+      "name": "pgvector",
+      "version": "0.5.0",
+      "purl": "pkg:pypi/pgvector@0.5.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pluggy@1.6.0",
+      "name": "pluggy",
+      "version": "1.6.0",
+      "purl": "pkg:pypi/pluggy@1.6.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/prompt-toolkit@3.0.53",
+      "name": "prompt_toolkit",
+      "version": "3.0.53",
+      "purl": "pkg:pypi/prompt-toolkit@3.0.53",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/psycopg@3.3.6",
+      "name": "psycopg",
+      "version": "3.3.6",
+      "purl": "pkg:pypi/psycopg@3.3.6",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/psycopg-binary@3.3.6",
+      "name": "psycopg-binary",
+      "version": "3.3.6",
+      "purl": "pkg:pypi/psycopg-binary@3.3.6",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic@2.13.5",
+      "name": "pydantic",
+      "version": "2.13.5",
+      "purl": "pkg:pypi/pydantic@2.13.5",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-core@2.46.5",
+      "name": "pydantic_core",
+      "version": "2.46.5",
+      "purl": "pkg:pypi/pydantic-core@2.46.5",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygments@2.21.0",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "purl": "pkg:pypi/pygments@2.21.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyjwt@2.14.0",
+      "name": "PyJWT",
+      "version": "2.14.0",
+      "purl": "pkg:pypi/pyjwt@2.14.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest@9.1.1",
+      "name": "pytest",
+      "version": "9.1.1",
+      "purl": "pkg:pypi/pytest@9.1.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-cov@7.1.0",
+      "name": "pytest-cov",
+      "version": "7.1.0",
+      "purl": "pkg:pypi/pytest-cov@7.1.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-django@4.14.0",
+      "name": "pytest-django",
+      "version": "4.14.0",
+      "purl": "pkg:pypi/pytest-django@4.14.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-timeout@2.4.0",
+      "name": "pytest-timeout",
+      "version": "2.4.0",
+      "purl": "pkg:pypi/pytest-timeout@2.4.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dotenv@1.2.3",
+      "name": "python-dotenv",
+      "version": "1.2.3",
+      "purl": "pkg:pypi/python-dotenv@1.2.3",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/redis@8.1.0",
+      "name": "redis",
+      "version": "8.1.0",
+      "purl": "pkg:pypi/redis@8.1.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "name": "six",
+      "version": "1.17.0",
+      "purl": "pkg:pypi/six@1.17.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sniffio@1.3.1",
+      "name": "sniffio",
+      "version": "1.3.1",
+      "purl": "pkg:pypi/sniffio@1.3.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlparse@0.6.0",
+      "name": "sqlparse",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/sqlparse@0.6.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/truststore@0.10.4",
+      "name": "truststore",
+      "version": "0.10.4",
+      "purl": "pkg:pypi/truststore@0.10.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-inspection@0.4.4",
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "purl": "pkg:pypi/typing-inspection@0.4.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tzdata@2026.4",
+      "name": "tzdata",
+      "version": "2026.4",
+      "purl": "pkg:pypi/tzdata@2026.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tzlocal@5.4.4",
+      "name": "tzlocal",
+      "version": "5.4.4",
+      "purl": "pkg:pypi/tzlocal@5.4.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/vine@5.1.0",
+      "name": "vine",
+      "version": "5.1.0",
+      "purl": "pkg:pypi/vine@5.1.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/wcwidth@0.8.4",
+      "name": "wcwidth",
+      "version": "0.8.4",
+      "purl": "pkg:pypi/wcwidth@0.8.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "scradar:depth",
+          "value": "1"
+        },
+        {
+          "name": "scradar:direct",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}

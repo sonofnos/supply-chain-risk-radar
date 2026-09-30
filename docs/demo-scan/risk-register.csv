@@ -1,0 +1,4 @@
+supplier,component_count,direct_count,transitive_count,critical,high,medium,low,total_vulnerabilities,max_severity,concentration_flag_count,composite_score
+docwise-frontend,265,20,245,0,0,0,0,0,NONE,71,100
+ledger-api,814,46,768,0,63,24,6,93,HIGH,71,100
+docwise-backend,54,54,0,1,2,3,4,11,CRITICAL,0,58

@@ -1,0 +1,783 @@
+[
+  {
+    "component": "npm:@babel/helper-string-parser",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.29.7",
+      "ledger-api": "7.29.7"
+    }
+  },
+  {
+    "component": "npm:@babel/helper-validator-identifier",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.29.7",
+      "ledger-api": "7.29.7"
+    }
+  },
+  {
+    "component": "npm:@babel/parser",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.29.9",
+      "ledger-api": "7.29.7"
+    }
+  },
+  {
+    "component": "npm:@babel/types",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.29.8",
+      "ledger-api": "7.29.7"
+    }
+  },
+  {
+    "component": "npm:@bcoe/v8-coverage",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.2",
+      "ledger-api": "0.2.3"
+    }
+  },
+  {
+    "component": "npm:@jridgewell/gen-mapping",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "0.3.13",
+      "ledger-api": "0.3.13"
+    }
+  },
+  {
+    "component": "npm:@jridgewell/remapping",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.3.5",
+      "ledger-api": "2.3.5"
+    }
+  },
+  {
+    "component": "npm:@jridgewell/resolve-uri",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "3.1.2",
+      "ledger-api": "3.1.2"
+    }
+  },
+  {
+    "component": "npm:@jridgewell/sourcemap-codec",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.6.0",
+      "ledger-api": "1.5.5"
+    }
+  },
+  {
+    "component": "npm:@jridgewell/trace-mapping",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "0.3.31",
+      "ledger-api": "0.3.9"
+    }
+  },
+  {
+    "component": "npm:@types/estree",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.9",
+      "ledger-api": "1.0.9"
+    }
+  },
+  {
+    "component": "npm:@types/node",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "24.13.6",
+      "ledger-api": "20.19.43"
+    }
+  },
+  {
+    "component": "npm:acorn",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "8.18.0",
+      "ledger-api": "8.17.0"
+    }
+  },
+  {
+    "component": "npm:asynckit",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "0.4.0",
+      "ledger-api": "0.4.0"
+    }
+  },
+  {
+    "component": "npm:balanced-match",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.0.4",
+      "ledger-api": "1.0.2"
+    }
+  },
+  {
+    "component": "npm:baseline-browser-mapping",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.11.25",
+      "ledger-api": "2.10.43"
+    }
+  },
+  {
+    "component": "npm:brace-expansion",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "5.0.12",
+      "ledger-api": "1.1.16"
+    }
+  },
+  {
+    "component": "npm:browserslist",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.29.0",
+      "ledger-api": "4.28.6"
+    }
+  },
+  {
+    "component": "npm:call-bind-apply-helpers",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.2",
+      "ledger-api": "1.0.2"
+    }
+  },
+  {
+    "component": "npm:caniuse-lite",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.30001810",
+      "ledger-api": "1.0.30001806"
+    }
+  },
+  {
+    "component": "npm:chokidar",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "5.0.0",
+      "ledger-api": "3.6.0"
+    }
+  },
+  {
+    "component": "npm:combined-stream",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.8",
+      "ledger-api": "1.0.8"
+    }
+  },
+  {
+    "component": "npm:commander",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "14.0.3",
+      "ledger-api": "4.1.1"
+    }
+  },
+  {
+    "component": "npm:debug",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.4.3",
+      "ledger-api": "2.6.9"
+    }
+  },
+  {
+    "component": "npm:delayed-stream",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.0",
+      "ledger-api": "1.0.0"
+    }
+  },
+  {
+    "component": "npm:dunder-proto",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.1",
+      "ledger-api": "1.0.1"
+    }
+  },
+  {
+    "component": "npm:electron-to-chromium",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.5.434",
+      "ledger-api": "1.5.393"
+    }
+  },
+  {
+    "component": "npm:enhanced-resolve",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "5.25.1",
+      "ledger-api": "5.24.3"
+    }
+  },
+  {
+    "component": "npm:es-define-property",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.1",
+      "ledger-api": "1.0.1"
+    }
+  },
+  {
+    "component": "npm:es-errors",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.3.0",
+      "ledger-api": "1.3.0"
+    }
+  },
+  {
+    "component": "npm:es-module-lexer",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.3.2",
+      "ledger-api": "1.7.0"
+    }
+  },
+  {
+    "component": "npm:es-object-atoms",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.1.2",
+      "ledger-api": "1.1.2"
+    }
+  },
+  {
+    "component": "npm:es-set-tostringtag",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.1.0",
+      "ledger-api": "2.1.0"
+    }
+  },
+  {
+    "component": "npm:escalade",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "3.2.0",
+      "ledger-api": "3.2.0"
+    }
+  },
+  {
+    "component": "npm:fdir",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "6.5.0",
+      "ledger-api": "6.5.0"
+    }
+  },
+  {
+    "component": "npm:form-data",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.0.6",
+      "ledger-api": "4.0.6"
+    }
+  },
+  {
+    "component": "npm:fsevents",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.3.3",
+      "ledger-api": "2.3.3"
+    }
+  },
+  {
+    "component": "npm:function-bind",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.1.2",
+      "ledger-api": "1.1.2"
+    }
+  },
+  {
+    "component": "npm:get-intrinsic",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.3.0",
+      "ledger-api": "1.3.0"
+    }
+  },
+  {
+    "component": "npm:get-proto",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.1",
+      "ledger-api": "1.0.1"
+    }
+  },
+  {
+    "component": "npm:glob",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "13.0.6",
+      "ledger-api": "7.2.3"
+    }
+  },
+  {
+    "component": "npm:gopd",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.2.0",
+      "ledger-api": "1.2.0"
+    }
+  },
+  {
+    "component": "npm:graceful-fs",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.2.11",
+      "ledger-api": "4.2.11"
+    }
+  },
+  {
+    "component": "npm:has-symbols",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.1.0",
+      "ledger-api": "1.1.0"
+    }
+  },
+  {
+    "component": "npm:has-tostringtag",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.0.2",
+      "ledger-api": "1.0.2"
+    }
+  },
+  {
+    "component": "npm:hasown",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.0.4",
+      "ledger-api": "2.0.4"
+    }
+  },
+  {
+    "component": "npm:js-tokens",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "10.0.0",
+      "ledger-api": "4.0.0"
+    }
+  },
+  {
+    "component": "npm:lru-cache",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "11.5.3",
+      "ledger-api": "5.1.1"
+    }
+  },
+  {
+    "component": "npm:magic-string",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.4.1",
+      "ledger-api": "0.30.8"
+    }
+  },
+  {
+    "component": "npm:math-intrinsics",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.1.0",
+      "ledger-api": "1.1.0"
+    }
+  },
+  {
+    "component": "npm:mime-db",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.52.0",
+      "ledger-api": "1.52.0"
+    }
+  },
+  {
+    "component": "npm:mime-types",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.1.35",
+      "ledger-api": "2.1.35"
+    }
+  },
+  {
+    "component": "npm:minimatch",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "10.2.6",
+      "ledger-api": "3.1.5"
+    }
+  },
+  {
+    "component": "npm:minipass",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.1.3",
+      "ledger-api": "7.1.3"
+    }
+  },
+  {
+    "component": "npm:ms",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.1.3",
+      "ledger-api": "2.0.0"
+    }
+  },
+  {
+    "component": "npm:node-releases",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.0.56",
+      "ledger-api": "2.0.51"
+    }
+  },
+  {
+    "component": "npm:path-scurry",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.0.2",
+      "ledger-api": "1.11.1"
+    }
+  },
+  {
+    "component": "npm:picocolors",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.1.1",
+      "ledger-api": "1.1.1"
+    }
+  },
+  {
+    "component": "npm:picomatch",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "4.0.7",
+      "ledger-api": "2.3.2"
+    }
+  },
+  {
+    "component": "npm:punycode",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.3.1",
+      "ledger-api": "2.3.1"
+    }
+  },
+  {
+    "component": "npm:readdirp",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "5.1.1",
+      "ledger-api": "3.6.0"
+    }
+  },
+  {
+    "component": "npm:require-from-string",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.0.2",
+      "ledger-api": "2.0.2"
+    }
+  },
+  {
+    "component": "npm:semver",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.8.5",
+      "ledger-api": "6.3.1"
+    }
+  },
+  {
+    "component": "npm:tapable",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "2.3.3",
+      "ledger-api": "2.3.3"
+    }
+  },
+  {
+    "component": "npm:tinyglobby",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "0.2.17",
+      "ledger-api": "0.2.17"
+    }
+  },
+  {
+    "component": "npm:tr46",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "6.0.0",
+      "ledger-api": "0.0.3"
+    }
+  },
+  {
+    "component": "npm:typescript",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "6.0.3",
+      "ledger-api": "5.7.2"
+    }
+  },
+  {
+    "component": "npm:undici-types",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "7.18.2",
+      "ledger-api": "6.21.0"
+    }
+  },
+  {
+    "component": "npm:update-browserslist-db",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "1.3.3",
+      "ledger-api": "1.2.3"
+    }
+  },
+  {
+    "component": "npm:webidl-conversions",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "8.0.1",
+      "ledger-api": "3.0.1"
+    }
+  },
+  {
+    "component": "npm:whatwg-url",
+    "suppliers": [
+      "docwise-frontend",
+      "ledger-api"
+    ],
+    "versions": {
+      "docwise-frontend": "16.0.1",
+      "ledger-api": "5.0.0"
+    }
+  }
+]

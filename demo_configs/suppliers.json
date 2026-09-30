@@ -1,0 +1,7 @@
+{
+  "suppliers": [
+    { "name": "docwise-backend", "path": "/Users/Chris/StudioProjects/docwise/backend" },
+    { "name": "docwise-frontend", "path": "/Users/Chris/StudioProjects/docwise/frontend" },
+    { "name": "ledger-api", "path": "/Users/Chris/StudioProjects/ledger-api" }
+  ]
+}

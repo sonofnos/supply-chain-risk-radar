@@ -1,0 +1,7 @@
+{
+  "suppliers": [
+    { "name": "docwise-backend", "path": "targets/docwise/backend" },
+    { "name": "docwise-frontend", "path": "targets/docwise/frontend" },
+    { "name": "ledger-api", "path": "targets/ledger-api" }
+  ]
+}
